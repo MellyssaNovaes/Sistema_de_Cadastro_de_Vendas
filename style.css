@@ -17,7 +17,7 @@ body {
 
 .sidebar {
     width: 250px;
-    background-color: #2D0B5A; /* Roxo Escuro */
+    background-color: #2D0B5A; 
     color: white;
     display: flex;
     flex-direction: column;
@@ -50,12 +50,11 @@ body {
 }
 
 .sidebar li.active {
-    background-color: #7B2CBF; /* Roxo Ativo */
+    background-color: #7B2CBF; 
     color: white;
     border-left: 5px solid #E0AAFF;
 }
 
-/* Área Principal */
 .main-content {
     flex: 1;
     padding: 40px;
@@ -68,7 +67,6 @@ h1 {
     font-weight: 500;
 }
 
-/* Formulário Estilo Clean */
 .form-cadastro {
     background: white;
     padding: 25px;
@@ -101,7 +99,7 @@ input {
 }
 
 .btn-cadastrar {
-    background-color: #7B2CBF; /* Lilás vibrante para combinar com a Sidebar */
+    background-color: #7B2CBF; 
     color: white;
     padding: 12px 25px;
     border-radius: 8px;
@@ -111,7 +109,6 @@ input {
     transition: background-color 0.3s ease;
 }
 
-/* Efeito ao passar o mouse para um lilás um pouco mais escuro */
 .btn-cadastrar:hover {
     background-color: #5A189A;
 }
@@ -149,7 +146,6 @@ input {
 .btn-remover-ultimo { background: #FFB703; color: white; }
 .btn-limpar-tudo { background: #FF4D4D; color: white; }
 
-/* Estilo da Tabela Interna */
 table {
     width: 100%;
     border-collapse: collapse;
